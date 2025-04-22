@@ -24,6 +24,10 @@
   - Credit Score
   - Rating (Poor, Average, Good, Excellent)
 
+## Live Demo:
+The app is deployed on Streamlit! You can access the live version by clicking the link below:
+https://credx-credit-risk-model.streamlit.app/
+
 ## Requirements
 
 Before running the application, make sure you have the following dependencies installed:
@@ -73,3 +77,7 @@ It outputs:
 - **Default Probability**: The likelihood of default.
 - **Credit Score**: A score ranging from 300 to 900.
 - **Rating**: A rating such as 'Poor', 'Average', 'Good', or 'Excellent'.
+
+## Project Snapshot
+![image](https://github.com/user-attachments/assets/13f4cca0-3c5d-460c-a176-b5c6e98ff4a4)
+
