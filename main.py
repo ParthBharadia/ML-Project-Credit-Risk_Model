@@ -22,12 +22,12 @@ with row2[0]:
 with row2[1]:
     loan_tenure_months = st.number_input('Loan Tenure (months)',min_value=0,step=1,value=36)
 with row2[2]:
-    avg_dpd_per_delinquency = st.number_input('Avg DPD',min_value=0,value=20)
+    avg_dpd_per_delinquency = st.number_input('Avg DPD',min_value=0,value=20,help="DPD (Days Past Due) indicates how many days payments are overdue on average. Lower values are better.")
 
 with row3[0]:
-    delinquency_ratio = st.number_input('Delinquency Ratio',min_value=0,max_value=100,step=1,value=30)
+    delinquency_ratio = st.number_input('Delinquency Ratio',min_value=0,max_value=100,step=1,value=30,help="Delinquency Ratio is the percentage of loans that are overdue. Higher values may indicate credit risk.")
 with row3[1]:
-    credit_utilization_ratio = st.number_input('Credit Utilization Ratio',min_value=0,max_value=100,step=1,value=30)
+    credit_utilization_ratio = st.number_input('Credit Utilization Ratio',min_value=0,max_value=100,step=1,value=30,help="Shows how much of your available credit is being used. Lower values are considered healthier.")
 with row3[2]:
     num_open_accounts = st.number_input('Open Loan Accounts',min_value=1,max_value=4,step=1,value=2)
 
